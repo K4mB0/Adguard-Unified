@@ -1,0 +1,89 @@
+# CATEGORY: Reddit Platform & Alternative Frontends — Total Block
+# PURPOSE: Complete DNS-level eradication of Reddit, native content media nodes, 
+#          official mobile application APIs, and all decentralized alternative open-source 
+#          frontends (Redlib, Libreddit, Teddit) used to bypass content restrictions.
+# NOTE: All invalid DNS wildcards purged; full protection relies entirely on explicit endpoints.
+
+# --- OFFICIAL REDDIT CORE INTERFACES ---
+||reddit.com^$important
+||redd.it^$important
+
+# --- OFFICIAL MEDIA, IMAGE, & VIDEO DOMAINS ---
+||redditmedia.com^$important
+||redditstatic.com^$important
+||reddituploads.com^$important
+||preview.redd.it^$important
+||external-preview.redd.it^$important
+
+# --- CORPORATE, HELP, & SYSTEM BACKENDS ---
+||redditmap.com^$important
+||redditinc.com^$important
+||reddithelp.com^$important
+||redditblog.com^$important
+||out.reddit.com^$important
+
+# --- PRIMARY REDLIB HOSTS & EXTENSIONS ---
+# Blocks open-source frontends that bypass Reddit age-verification and NSFW controls
+||redlib.org^$important
+||redlib.xyz^$important
+||redlib.cc^$important
+||redlib.network^$important
+||redlib.dev^$important
+||redlib.kavin.rocks^$important
+||redlib.marcusj.tech^$important
+||redlib.tux.pizza^$important
+||redlib.foss.wtf^$important
+||redlib.shop^$important
+||redlib.garudalinux.org^$important
+||redlib.privacyfreak.org^$important
+||redlib.ziggy.nl^$important
+||redlib.zaggy.nl^$important
+||redlib.catsarch.com^$important
+||redlib.ducks.party^$important
+||redlib.no-logs.com^$important
+||redlib.perennialte.ch^$important
+||redlib.privacydev.net^$important
+||redlib.seby.io^$important
+||redlib.tux.digital^$important
+||redlib.vny.wtf^$important
+||rl.freedit.cc^$important
+
+# --- PIRATE & SHADOW REDDIT FORKS ---
+||pirate.vodka^$important
+||pirate.red^$important
+||pirate-front.xyz^$important
+||pirate.libreddit.one^$important
+||libreddit.pirate.network^$important
+
+# --- LIBREDDIT INSTANCES & MIRRORS ---
+||libreddit.kavin.rocks^$important
+||libreddit.gr^$important
+||libreddit.nl^$important
+||libreddit.pussthecat.org^$important
+||libreddit.lunar.icu^$important
+||libreddit.dothq.co^$important
+||libreddit.privacydev.net^$important
+||libreddit.oxymoron.app^$important
+||libreddit.oxymoron.biz^$important
+||libreddit.freedit.eu^$important
+||libreddit.search.funami.tech^$important
+||libreddit.zzls.xyz^$important
+||libreddit.spy.pet^$important
+||libreddit.totaldarkness.net^$important
+
+# --- OTHER FRONTENDS, MIRRORS, & FORKS ---
+||safereddit.com^$important
+||teddit.net^$important
+||teddit.gg^$important
+||teddit.zippykid.com^$important
+||teddit.zaggy.nl^$important
+||redact.social^$important
+||r-imm.reddit-mirror.app^$important
+||redradio.app^$important
+||rdt.trom.tf^$important
+
+# --- PRIVACY FRONTEND AGGREGATORS & REDIRECT PIPELINES ---
+# Shuts down portals used to dynamically hunt for working alternative nodes
+||frontends.net^$important
+||frontendfriendly.xyz^$important
+||privacyredirect.com^$important

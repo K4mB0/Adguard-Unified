@@ -1,0 +1,43 @@
+# CATEGORY: Slang Dictionaries, Memes & Vulgarity Repositories
+# PURPOSE: Zero-tolerance DNS-level blockade of crowdsourced slang dictionaries, toxic 
+#          internet culture wikis, profanity references, and viral meme aggregators.
+
+# --- CROWDSOURCED SLANG & DEFINITION ENGINE CORES ---
+||urbandictionary.com^$important
+||slangdefine.org^$important
+||onlineslangdictionary.com^$important
+||noslang.com^$important
+||slang.net^$important
+||slangit.com^$important
+||slangpedia.org^$important
+||theinternetdictionary.com^$important
+||internetslang.com^$important
+||slanglang.net^$important
+||fastslang.com^$important
+||ruraldictionary.com^$important
+||the-definitions.com^$important
+||dictionarysoup.com^$important
+
+# --- HIGHLY TOXIC / EXPLICIT INTERNET WIKIS & FORUMS ---
+# Targeting platforms known for extreme vulgarity, explicit culture tracking, and harassment archives
+||encyclopediadramatica.online^$important
+||encyclopediadramatica.se^$important
+||encyclopediadramatica.xyz^$important
+||hexbear.net^$important
+
+# --- VIRAL MEME TRACKERS & CACHING NETWORKS ---
+# Shuts down the primary documentation and media nodes for internet subcultures
+||knowyourmeme.com^$important
+||kym-cdn.com^$important
+||meming.io^$important
+||memeatlas.com^$important
+||memetemplate4u.com^$important
+
+# --- TEXT TRANSFORMATION & GENERATOR PIPELINES ---
+# Blocks tools used to obfuscate vulgar messages or generate bypass text formats
+||lingojam.com^$important
+||fancytextgenerator.com^$important
+||coolgenerator.com^$important
+
+# --- BACKGROUND DATA SOURCES & DEVELOPER SLANG APIs ---
+||slangapi.com^$important

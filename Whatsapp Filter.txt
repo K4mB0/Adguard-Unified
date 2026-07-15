@@ -1,0 +1,32 @@
+# CATEGORY: WhatsApp Messaging Platform — Total Lockdown
+# PURPOSE: Complete DNS-level eradication of WhatsApp text, voice, media, 
+#          and web synchronization protocols to address unmonitorable E2EE blind spots.
+
+# --- CORE WHATSAPP PLATFORM INTERFACES ---
+||whatsapp.com^$important
+||whatsapp.net^$important
+||wa.me^$important
+||whatsappcdn.net^$important
+||whatsappbusiness.com^$important
+
+# --- APP SIGNALING, HANDSHAKES & GROUP CHAT ROUTING ---
+# Paralyzes client initialization, user verification, and background data synchronization
+||v.whatsapp.net^$important
+||g.whatsapp.net^$important
+||lon.p.whatsapp.net^$important
+
+# --- MULTIMEDIA GATEWAYS & PROFILE PICTURE SYNC ---
+# Targets isolated media delivery paths specific to WhatsApp infrastructure
+||mmg.whatsapp.net^$important
+||pps.whatsapp.net^$important
+
+# --- WHATSAPP WEB CLIENT & TLD VARIANTS ---
+# Prevents desktop browser sync mirroring options entirely
+||web.whatsapp.org^$important
+||web.whatsapp.in^$important
+||web.whatsapp.biz^$important
+||web.whatsapp.me^$important
+||web.whatsapp.info^$important
+||web.whatsapp.co^$important
+||web.whatsapp.io^$important
+||web.whatsapp.link^$important

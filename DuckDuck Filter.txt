@@ -1,0 +1,21 @@
+# CATEGORY: Search Bypass — DuckDuckGo Block
+# PURPOSE: Full block of DuckDuckGo engines and alternative backend routes 
+#          to prevent unmonitored AI chats and SafeSearch enforcement bypasses.
+
+# --- CORE DUCKDUCKGO DOMAINS ---
+||duckduckgo.com^$important
+||ddg.gg^$important
+||ddg-api.com^$important
+||duck.ai^$important
+||unduck.link^$important
+
+# --- INFRASTRUCTURE & BACKEND CLUSTERS ---
+||duckduckgo-owned-server.com^$important
+||duckduckgo-owned-server.net^$important
+||duckduckgo-owned-server.org^$important
+||duckduckgo-api.com^$important
+
+# --- ALTERNATIVE PROXIES & THIRD-PARTY ALIASES ---
+||duckduckgo.eu.org^$important
+||duckduckgo.startpageapi.com^$important
+||ddg-api.herokuapp.com^$important

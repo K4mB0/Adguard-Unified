@@ -1,0 +1,56 @@
+# CATEGORY: TikTok Platform & ByteDance Infrastructure — Total Block
+# PURPOSE: Complete DNS-level eradication of TikTok short-form video delivery, native tracking, 
+#          ByteDance data-collection networks, mobile application APIs, and web-based video downloaders.
+# NOTE: Blocks background CDNs to completely freeze video player loading hooks on target devices.
+
+# --- OFFICIAL TIKTOK CORE DOMAINS & API HUBS ---
+||tiktok.com^$important
+||tiktokv.com^$important
+||tiktokd.org^$important
+
+# --- TIKTOK DISTRIBUTED DATA CDNs & AKAMAI EDGES ---
+# Paralyzes the primary video streaming caches and image delivery infrastructure
+||tiktokcdn.com^$important
+||tiktokcdn-eu.com^$important
+||tiktokcdn-us.com^$important
+||tiktokcdn-in.com^$important
+||tiktokcdn-sg.com^$important
+||tiktokcdn-uk.com^$important
+||p16-tiktokcdn.com^$important
+||cdn-tiktokcdn.com^$important
+||p16-tiktokcdn-com.akamaized.net^$important
+||ttwstatic.com^$important
+||ttwstatic.net^$important
+
+# --- BYTEDANCE CORPORATE INFRASTRUCTURE & REVERSE PROXIES ---
+# Targets backend diagnostic trackers, telemetry networks, and data ingestion pipelines
+||byteoversea.com^$important
+||byteoversea.net^$important
+||ibytedtos.com^$important
+||ibyteimg.com^$important
+||bytedapm.com^$important
+||bytedance.com^$important
+||bytedanceapi.com^$important
+||bytedance.net^$important
+||bytedanceproxy.com^$important
+||sgpstatp.com^$important
+||sgsnssdk.com^$important
+||tlivecdn.com^$important
+||ttlivecdn.com^$important
+
+# --- THIRD-PARTY WEB DOWNLOADERS, SCRAPERS, & MIRRORS ---
+# Shuts down portals used to fetch TikTok content anonymously outside the official application
+||ssstik.io^$important
+||snaptik.kim^$important
+||tikcdn.io^$important
+||savett.cc^$important
+||snaptik.app^$important
+||snaptik.io^$important
+||musicaldown.com^$important
+||tikmate.online^$important
+||ssyoutube.net^$important
+||ttsave.app^$important
+
+# --- LEGACY / MUSICAL.LY ROUTING CHANNELS ---
+||musically.com^$important
+||musical.ly^$important

@@ -1,0 +1,18 @@
+# ============================================================
+# NEXUSMODS WHITELIST
+# One of the largest and most reputable gaming mod repositories
+# Hosts mods for Skyrim, Fallout, Cyberpunk, Witcher and many more
+# Safe to allow — no adult content, no bypass tools
+# Added at user request — May 2026
+# ============================================================
+
+# --- CORE PLATFORM & USER ECOSYSTEM ---
+@@||nexusmods.com^$important
+@@||users.nexusmods.com^$important
+@@||forums.nexusmods.com^$important
+@@||next.nexusmods.com^$important
+
+# --- API SERVICES & DOWNLOAD INFRASTRUCTURE ---
+@@||api.nexusmods.com^$important
+@@||staticdelivery.nexusmods.com^$important
+@@||cf-files.nexusmods.com^$important

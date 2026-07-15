@@ -1,0 +1,180 @@
+# CATEGORY: Holy Unblocker, School Proxies & Framework Bypass Engines
+# PURPOSE: Zero-tolerance DNS-level block of browser-based proxy engines, mirror networks, 
+#          edge computing workers, stealth hosting endpoints, and serverless P2P communication nodes.
+# NOTE: All invalid DNS wildcards and high-collateral global cloud roots (workers.dev) have been purged.
+
+# --- ULTRAVIOLENT PROXY ENGINE FRAMEWORK ---
+# The backbone of nearly every modern school bypass portal
+||ultraviolet.pages.dev^$important
+||ultraviolet-uv.pages.dev^$important
+||uv.netlify.app^$important
+||uvac.uk^$important
+||uvac.eu^$important
+||uv-static.pages.dev^$important
+||tomp.app^$important
+||uv.js.org^$important
+||uv.icu^$important
+||ultraviolet.vercel.app^$important
+
+# --- RAMMERHEAD BROWSER-IN-BROWSER ENGINE ---
+# Advanced dynamic sandboxing engine used to step around web filters
+||rammerhead.org^$important
+||rhcloud.pages.dev^$important
+||rh-net.pages.dev^$important
+||rh-worker.workers.dev^$important
+||rhead.workers.dev^$important
+||rhdruntime.workers.dev^$important
+||rammerhead.workers.dev^$important
+||rammerhead.netlify.app^$important
+||rammerhead.net^$important
+||rammerheadproxy.com^$important
+
+# --- INTERSTELLAR / COSMIC / SHUTTLE / LUNAR / NEBULA ---
+||interstellarsrc.net^$important
+||interstellarproxy.net^$important
+||interstellar.cx^$important
+||shuttle.pages.dev^$important
+||lunar.pages.dev^$important
+||lunarsrc.org^$important
+||nebula.pages.dev^$important
+||interstellar.pages.dev^$important
+||nebulaproxy.pages.dev^$important
+
+# --- HOLY UNBLOCKER CORE ECOSYSTEM ---
+||holyubofficial.net^$important
+||holyub.xyz^$important
+||holyub.com^$important
+||holyub.cc^$important
+||holyub.org^$important
+||holyunblocker.org^$important
+||holyub.pages.dev^$important
+||holyunblocker.pages.dev^$important
+||holyub.vercel.app^$important
+||holyub.workers.dev^$important
+||holyunblocker.workers.dev^$important
+
+# --- HYDROVOLTER PROXY ECOSYSTEM ---
+||hydrovolter.com^$important
+||arc-hydrovolter.com^$important
+||hydrovolter.github.io^$important
+||hydrovolter.netlify.app^$important
+||hydro-volter.pages.dev^$important
+||hydrovolter.workers.dev^$important
+
+# --- NOBLOCC & UNBLOCC UK BYPASS ECOSYSTEM ---
+||noblocc.uk^$important
+||noblocc.co.uk^$important
+||noblocc.com^$important
+||noblocc.me^$important
+||noblo.cc^$important
+||unblocc.uk^$important
+||unblocc.co.uk^$important
+||unblocc.com^$important
+||unblocc.net^$important
+||unblocc.cc^$important
+||antiblocc.uk^$important
+||deblocc.uk^$important
+||stopblocc.uk^$important
+||eduhelp.uk^$important
+||estonias.uk^$important
+||phantomcaravan.uk^$important
+||coccblocc.men^$important
+||cookiesfor.me^$important
+||unblockit.page^$important
+||unblockgo.xyz^$important
+||collagehelper.com^$important
+
+# --- WOMGINX, INCOGNITO & SHADOW NETWORKS ---
+||womginx.org^$important
+||womginx.pages.dev^$important
+||incognito.pages.dev^$important
+||incog.workers.dev^$important
+||shadow-network.pages.dev^$important
+
+# --- TITANIUM / TITAN / ASTRON / TERMINAL ---
+||titaniumnetwork.org^$important
+||tnet.pages.dev^$important
+||astron.pages.dev^$important
+||terminal.pages.dev^$important
+
+# --- NODE & WEBSOCKET PROXIES ---
+||nodeunblocker.com^$important
+||nodeunblocker.net^$important
+
+# --- SPECIFIC TARGETED WORKERS & TUNNEL EDGES ---
+||proxy.pages.dev^$important
+||uv-worker.workers.dev^$important
+||uv-proxy.workers.dev^$important
+||rammer-worker.workers.dev^$important
+||womginx-worker.workers.dev^$important
+||unblocc-worker.pages.dev^$important
+||noblocc-worker.pages.dev^$important
+||proxy-noblocc.workers.dev^$important
+||proxy-unblocc.workers.dev^$important
+||cloudflare-unblock.workers.dev^$important
+||cfworker-unblock.pages.dev^$important
+||unblocker-demo.pages.dev^$important
+||nativerelay.pages.dev^$important
+||tunneler.pages.dev^$important
+||download.tau2.workers.dev^$important
+||nit.subsonic.workers.dev^$important
+||worker-holy-smoke-5eb3.pres1234569.workers.dev^$important
+||loc2.thapi.workers.dev^$important
+
+# --- STEALTH BYPASS TUNNELS, CDNs & REVERSE PIPES ---
+||duk.es^$important
+||dukes.workers.dev^$important
+||raw.githack.com^$important
+||rawcdn.githack.com^$important
+||proxy-unblocker.github.io^$important
+||api.cors.lol^$important
+||uncenter.dev^$important
+||cdn.jsdelivr.xyz^$important
+
+# --- HELIOS BROWSER EXPLOITS & JUNE 2026 UPDATES ---
+||helios-browser.pages.dev^$important
+||interdoge.cfd^$important
+||prodregistryv2.org^$important
+||gg.poocloud.in^$important
+||poocloud.in^$important
+||char-archive.evulid.cc^$important
+||evulid.cc^$important
+||iamjustaproxyinohostanythingdontsendmedmcaniggas.lol^$important
+||keybypass.net^$important
+||linkvertise.lol^$important
+||turbocdn.st^$important
+||acceptancesuicidegel.com^$important
+||highschoolacademy.online^$important
+
+# --- JAMI P2P ENCRYPTED MESSENGER ---
+||jami.net^$important
+||ring.cx^$important
+||savoirfairelinux.com^$important
+||bootstrap.jami.net^$important
+||turn.jami.net^$important
+||dht.jami.net^$important
+
+# --- CLOUDFLARE, VERCEL & NETLIFY MULTI-ROUTERS ---
+||incognito.pages.dev^$important
+
+# --- KNOWN BYPASS CLONES & ALTERNATIVE GAMING PORTALS ---
+||unblockit.cam^$important
+||unblockit.rip^$important
+||unblockit.bz^$important
+||theunblocker.net^$important
+||schoolbreach.com^$important
+||schoolunblocker.net^$important
+||radon.games^$important
+||now.gg^$important
+||bookmarklets.com^$important
+||selenite.cc^$important
+||shuttleproxy.com^$important
+||algebra.best^$important
+
+# --- WEB TERMINALS, SSH TUNNELS & DYNAMIC LOOKUPS ---
+||shell.cloud.google.com^$important
+||termius.com^$important
+||sshwifty.com^$important
+||ish.chat^$important
+||nip.io^$important
+||learnaboutpotatoes.imaginelearningmath.com^$important

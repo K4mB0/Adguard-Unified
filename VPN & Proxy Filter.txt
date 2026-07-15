@@ -1,0 +1,226 @@
+# CATEGORY: Commercial VPN Providers, Encrypted Tunnels & Proxy Lists
+# PURPOSE: Full DNS-level blockade of VPN client bootstrap layers, handshake APIs, 
+#          CDN payload deliveries, and free public proxy scraper engines.
+# NOTE: Maximum hardening applied. Root-level Proton block active.
+
+# --- NORDVPN FAMILY ---
+||nordvpn.com^$important
+||nordcdn.com^$important
+||nord-dns.com^$important
+||nordaccount.com^$important
+||nordwebsite.net^$important
+||northghost.com^$important
+||nordlayer.com^$important
+||nordpass.com^$important
+||nordlocker.com^$important
+
+# --- EXPRESSVPN ---
+||expressvpn.com^$important
+||expresscdn.com^$important
+||express-vpn.com^$important
+||expressvpn.net^$important
+||expressconnect.com^$important
+
+# --- PROTON INFRASTRUCTURE TOTAL LOCKDOWN ---
+# Complete root blockade since no legitimate Proton accounts (Mail/Storage) are active on-network
+||proton.me^$important
+||protonmail.com^$important
+||protonvpn.com^$important
+||protonvpn.net^$important
+||protonstatus.com^$important
+||api.protonvpn.ch^$important
+||api.protonmail.ch^$important
+||api.proton.me^$important
+
+# --- SURFSHARK / ATLAS ---
+||surfshark.com^$important
+||surfshark.net^$important
+||surfsharkdns.com^$important
+||atlasvpn.com^$important
+||atlaskvpn.com^$important
+
+# --- CYBERGHOST ---
+||cyberghost.com^$important
+||cyberghostvpn.com^$important
+||cgvpn.net^$important
+||cyberghost.network^$important
+
+# --- PRIVATE INTERNET ACCESS ---
+||privateinternetaccess.com^$important
+||piavpn.net^$important
+||piaservers.net^$important
+||pia.com^$important
+
+# --- IPVANISH ---
+||ipvanish.com^$important
+||ipvanish.net^$important
+||ipvanishcdn.com^$important
+
+# --- TUNNELBEAR ---
+||tunnelbear.com^$important
+||tunnelbear.net^$important
+||tbear.io^$important
+
+# --- WINDSCRIBE ---
+||windscribe.com^$important
+||wndsr.com^$important
+||windscribe.net^$important
+
+# --- HOTSPOT SHIELD / ANCHORFREE ---
+||hotspotshield.com^$important
+||anchorfree.com^$important
+||hsselite.com^$important
+||hotspotshield.net^$important
+||pango.co^$important
+
+# --- VYPRVPN / GOLDENFROG ---
+||vyprvpn.com^$important
+||goldenfrog.com^$important
+||vyprvpn.net^$important
+
+# --- HIDE.ME ---
+||hide.me^$important
+||hide.io^$important
+||hideservers.net^$important
+
+# --- STRONGVPN ---
+||strongvpn.com^$important
+||strongconnect.com^$important
+||strongvpn.net^$important
+
+# --- PUREVPN ---
+||purevpn.com^$important
+||purevpn.net^$important
+||purevpn.io^$important
+
+# --- MULLVAD (TARGETED WIREGUARD PIPELINES) ---
+||mullvad.net^$important
+||mullvad.com^$important
+||mullvadvpn.net^$important
+||am.i.mullvad.net^$important
+||ipv4.am.i.mullvad.net^$important
+||ipv6.am.i.mullvad.net^$important
+||adblock.dns.mullvad.net^$important
+||dns.mullvad.net^$important
+||doh.mullvad.net^$important
+||api.mullvad.net^$important
+||app.mullvad.net^$important
+||account.mullvad.net^$important
+||relays.mullvad.net^$important
+||bridges.mullvad.net^$important
+||stagemole.eu^$important
+||mullvad.github.io^$important
+
+# --- ASTRILL ---
+||astrill.com^$important
+||astrill.net^$important
+
+# --- ZENMATE ---
+||zenmate.com^$important
+||zenmate.net^$important
+
+# --- BROWSEC ---
+||browsec.com^$important
+||browsec.net^$important
+
+# --- SPEEDIFY ---
+||speedify.com^$important
+||speedify.net^$important
+
+# --- MOZILLA VPN ---
+||mozilla-vpn.net^$important
+||vpn.mozilla.org^$important
+
+# --- GAMING VPNs & LAN TUNNEL EMULATORS ---
+# Stops unauthorized peer-to-peer virtual local network bridges
+||radmin-vpn.com^$important
+||vpn.net^$important
+||hamachi.com^$important
+
+# --- TARGETED MALWAREBYTES TUNNEL ENDPOINT ---
+# Disables native VPN privacy client without obstructing main app security signatures
+||vpn.malwarebytes.com^$important
+
+# --- CLOUDFLARE WARP PLATFORM ---
+||warp.plus^$important
+||warp.cloudflare.com^$important
+||cloudflarewarp.com^$important
+||cloudflareclient.com^$important
+
+# --- OTHER MINOR COMMERCIAL PROVIDERS ---
+||airvpn.org^$important
+||perfect-privacy.com^$important
+||vpnunlimited.com^$important
+||vpnarea.com^$important
+||ivpn.net^$important
+||ivacy.com^$important
+||torguard.net^$important
+||torguard.com^$important
+||privatekvpn.com^$important
+||openvpn.net^$important
+||opera-proxy.net^$important
+||opera-vpn.net^$important
+||betternet.co^$important
+||touchvpn.net^$important
+||safervpn.com^$important
+||vpngate.net^$important
+||urban-vpn.com^$important
+||freevpn.me^$important
+||vpnbook.com^$important
+||zoogvpn.com^$important
+||hidemyass.com^$important
+||planetvpn.com^$important
+||goosevpn.com^$important
+||privadovpn.com^$important
+||ultravpn.com^$important
+||blufvpn.com^$important
+||fastestvpn.com^$important
+||smartdnsproxy.com^$important
+||strongdns.com^$important
+||whoer.net^$important
+||seed4.me^$important
+||getflix.com.au^$important
+||anonine.com^$important
+||unlocator.com^$important
+||ovpn.com^$important
+||vpn.ac^$important
+||hidemy.name^$important
+||anonymousvpn.org^$important
+||freevpnplanet.com^$important
+||vpn.ht^$important
+
+# --- PUBLIC PROXY SCRAPERS & AGGREGATORS ---
+# Disables sources used to manually copy-paste active port relays
+||vpnproxy.net^$important
+||vpnmonster.com^$important
+||supervpn.net^$important
+||freeopenvpn.org^$important
+||unblockvpn.com^$important
+||fastvpn.me^$important
+||ipburger.com^$important
+||getfreevpn.com^$important
+||sslprivateproxy.com^$important
+||myprivateproxy.net^$important
+||smartproxy.com^$important
+||proxylisty.com^$important
+||proxyportal.net^$important
+||vpnapi.io^$important
+||binternet.ducks.party^$important
+||cf-web-proxy.pages.dev^$important
+||devprod.cloudflare.dev^$important
+||proxy-seller.com^$important
+||ffuavtlceo.in^$important
+||dlproxy.uk^$important
+||proxyscrape.com^$important
+||api.proxyscrape.com^$important
+||advanced.name^$important
+||free-proxy-list.net^$important
+
+# --- ENCRYPTED DISCOVERY & ALTERNATIVE MESH CHANNELS ---
+||tailscale.com^$important
+||login.tailscale.com^$important
+||wwwv2.tailscale.com^$important
+||libredns.gr^$important
+||doh.libredns.gr^$important
+||hf-mirror.com^$important
+||bsky.app^$important

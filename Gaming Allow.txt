@@ -1,0 +1,68 @@
+# CATEGORY: Gaming — Mainstream Platforms Allowlist
+# PURPOSE: Explicitly whitelist gaming platforms to ensure matchmaking and core 
+#          services are never accidentally broken by strict blocklists.
+
+# --- EPIC GAMES / FORTNITE ---
+@@||epicgames.com^$important
+@@||epicgames.dev^$important
+@@||unrealengine.com^$important
+@@||cloudflare.epicgamescdn.com^$important
+@@||epicgames-download1.akamaized.net^$important
+
+# --- EA GAMES & ROCKET LEAGUE EXTRAS ---
+@@||ea.com^$important
+@@||origin.com^$important
+@@||eaassets-a.akamaihd.net^$important
+@@||eaavatarservice.akamaized.net^$important
+@@||bakkesplugins.com^$important
+@@||s3.alphaconsole.io^$important
+@@||statsigapi.net^$important
+@@||events.statsigapi.net^$important
+
+# --- MINECRAFT / MOJANG ---
+@@||minecraft.net^$important
+@@||mojang.com^$important
+@@||minecraftservices.com^$important
+@@||minecraft-services.net^$important
+
+# --- STEAM / VALVE ---
+@@||steampowered.com^$important
+@@||steamcontent.com^$important
+@@||steamstatic.com^$important
+@@||steam-api.com^$important
+@@||steamcommunity.com^$important
+@@||steamcdn-a.akamaihd.net^$important
+
+# --- ROBLOX ---
+@@||roblox.com^$important
+@@||rbxcdn.com^$important
+@@||rbxtrk.com^$important
+@@||robloxlabs.com^$important
+
+# --- XBOX / MICROSOFT GAMING ---
+@@||xbox.com^$important
+@@||xboxlive.com^$important
+@@||live.com^$important
+
+# --- PLAYSTATION ---
+@@||playstation.com^$important
+@@||psn.com^$important
+@@||sonyentertainmentnetwork.com^$important
+
+# --- NINTENDO ---
+@@||nintendo.com^$important
+@@||nintendo.net^$important
+
+# --- UBISOFT ---
+@@||ubisoft.com^$important
+@@||ubi.com^$important
+@@||uplay.com^$important
+
+# --- BLIZZARD / BATTLE.NET ---
+@@||blizzard.com^$important
+@@||battle.net^$important
+@@||battlenet.com^$important
+
+# --- APP TELEMETRY & DATA CLOUD SYNC ---
+@@||sentry.io^$important
+@@||cloudsync-prod.s3.us-east-1.amazonaws.com^$important

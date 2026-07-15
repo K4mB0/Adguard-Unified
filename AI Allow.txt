@@ -1,0 +1,22 @@
+# CATEGORY: Approved AI Platforms Whitelist
+# PURPOSE: Explicitly allow access to Gemini, Claude, and ChatGPT, 
+#          overriding any DNS-level blocklists to ensure zero service disruption.
+
+# --- GOOGLE GEMINI ECOSYSTEM ---
+@@||gemini.google.com^$important
+@@||bard.google.com^$important
+@@||ai.google.dev^$important
+@@||generativelanguage.googleapis.com^$important
+
+# --- ANTHROPIC CLAUDE ECOSYSTEM ---
+@@||claude.ai^$important
+@@||anthropic.com^$important
+@@||cdn.api.anthropic.com^$important
+
+# --- OPENAI CHATGPT ECOSYSTEM ---
+@@||chatgpt.com^$important
+@@||openai.com^$important
+@@||chat.openai.com^$important
+@@||auth0.openai.com^$important
+@@||platform.openai.com^$important
+@@||production-openaicom-storage.s3.amazonaws.com^$important

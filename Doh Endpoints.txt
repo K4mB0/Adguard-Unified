@@ -1,0 +1,72 @@
+# CATEGORY: DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT) Bypass Prevention
+# PURPOSE: Blocks bootstrap domains for public encrypted DNS resolvers to prevent 
+#          browsers and applications from tunneling out and bypassing AdGuard Home filtering.
+
+# --- CLOUDFLARE ENCRYPTED CHANNELS ---
+||cloudflare-dns.com^$important
+||one.one.one.one^$important
+||mozilla.cloudflare-dns.com^$important
+||security.cloudflare-dns.com^$important
+||family.cloudflare-dns.com^$important
+||dooh.cloudflare-dns.com^$important
+
+# --- CONTROL D & NEXTDNS CUSTOM ENDPOINTS ---
+||controld.com^$important
+||controld.io^$important
+||dns.nextdns.io^$important
+||nextdns.io^$important
+
+# --- QUAD9 PRIVACY RESOLVERS ---
+||dns.quad9.net^$important
+||quad9.net^$important
+||dns11.quad9.net^$important
+
+# --- OPENDNS & CISCO INFRASTRUCTURE ---
+||doh.opendns.com^$important
+||doh.familyshield.opendns.com^$important
+||familyshield.opendns.com^$important
+
+# --- ADGUARD OFFICIAL RESOLVERS ---
+||adguard-dns.io^$important
+||dns.adguard.com^$important
+||dns.adguard-dns.com^$important
+||unfiltered.adguard-dns.com^$important
+
+# --- EUROPEAN UNION REGIONAL ENGINES ---
+||dns0.eu^$important
+||open.dns0.eu^$important
+||zero.dns0.eu^$important
+||kids.dns0.eu^$important
+
+# --- ANONYMOUS & PRIVACY-CENTRIC PROVIDERS ---
+||doh.mullvad.net^$important
+||libredns.gr^$important
+||doh.libredns.gr^$important
+||cleanbrowsing.org^$important
+||doh.cleanbrowsing.org^$important
+||wikimedia-dns.org^$important
+
+# --- INTERNET SERVICE PROVIDER CORE VECTORS ---
+||doh.xfinity.com^$important
+||resolver.telstra.net^$important
+
+# --- DECENTRALIZED & ALTERNATIVE TIER-2 RESOLVERS ---
+||doh.sb^$important
+||doh.dns.sb^$important
+||dns.sb^$important
+||doh.li^$important
+||dns.digitale-gesellschaft.ch^$important
+||dnsforge.de^$important
+||dns.hostux.net^$important
+||dns.aa.net.uk^$important
+||dns.switch.ch^$important
+||odvr.nic.cz^$important
+||dnscrypt.info^$important
+||doh.tiar.app^$important
+||doh.applied-privacy.net^$important
+||doh.ffmuc.net^$important
+||doh.la.ahadns.net^$important
+||doh.nl.ahadns.net^$important
+||dns.twnic.tw^$important
+||dns.flatuslifeco.com^$important
+||brahma.world^$important

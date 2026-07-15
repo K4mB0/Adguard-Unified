@@ -1,0 +1,30 @@
+# CATEGORY: Assetto Corsa & Modding Ecosystem Whitelist
+# PURPOSE: Explicitly allow sim racing core clients, alternative launchers, 
+#          Custom Shaders Patch distribution networks, and key community mod portals.
+
+# --- OFFICIAL KUNOS PIPES ---
+@@||assettocorsa.net^$important
+@@||assettocorsa.it^$important
+@@||kunos-simulazioni.com^$important
+@@||assettocorsacompetizione.com^$important
+@@||assettocorsacompetizione.it^$important
+
+# --- CONTENT MANAGER & CUSTOM SHADERS PATCH (CSP) INFRASTRUCTURE ---
+@@||acstuff.club^$important
+@@||acstuff.ru^$important
+@@||assettolab.ru^$important
+@@||assettolab.cc^$important
+@@||assettocorsa.club^$important
+@@||racesimstudio.com^$important
+
+# --- THIRD-PARTY SIM RACING PORTALS & COMMUNITY AGGREGATORS ---
+@@||overtake.gg^$important
+@@||racedepartment.com^$important
+@@||assettocorsamods.org^$important
+@@||simracingcockpit.gg^$important
+
+# --- BACKEND AUTHENTICATION & MOD DEVELOPMENT CHANNELS ---
+# Root domain allowed to ensure premium CSP/Sol/Pure license validation via Content Manager
+@@||ac-srs.com^$important
+@@||rsr-timing.com^$important
+@@||patreon.com^$important

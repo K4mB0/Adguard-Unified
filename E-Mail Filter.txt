@@ -1,0 +1,150 @@
+# CATEGORY: Email Platforms — Strict Block
+# PURPOSE: Full DNS-level eradication of alternative email networks, 
+#          disposable/temp accounts, and background email service pipes.
+#          Designed to restrict network-wide email access exclusively to approved options.
+
+# ============================================================
+#  CRITICAL DISCOVERY & BYPASS VECTORS
+# ============================================================
+# Blocks alternative platform sign-ups and system-level burner generators.
+||duck.com^$important
+
+# --- MAJOR MAINSTREAM EMAIL PROVIDERS ---
+||outlook.com^$important
+||outlook.office365.com^$important
+||hotmail.com^$important
+||yahoo.com^$important
+||yahoo.co.uk^$important
+||yahoo.co.jp^$important
+||aol.com^$important
+||icloud.com^$important
+||mail.com^$important
+||zoho.com^$important
+||protonmail.com^$important
+||proton.me^$important
+||tutanota.com^$important
+||tuta.com^$important
+||mail.ru^$important
+||gmx.com^$important
+||web.de^$important
+||fastmail.com^$important
+||hushmail.com^$important
+||startmail.com^$important
+||mailbox.org^$important
+||atomicmail.io^$important
+||runbox.com^$important
+||kolabnow.com^$important
+||thexyz.com^$important
+||privatemail.com^$important
+
+# --- REGIONAL & ISP EMAIL PORTALS ---
+||att.net^$important
+||comcast.net^$important
+||verizon.net^$important
+||sbcglobal.net^$important
+||charter.net^$important
+||shaw.ca^$important
+||btinternet.com^$important
+||talktalk.net^$important
+
+# --- BUSINESS & ENTERPRISE WEBMAIL PIPE TARGETS ---
+||office365.com^$important
+||exchange.com^$important
+||zimbra.com^$important
+||godaddy.com^$important
+||bluehost.com^$important
+||hostgator.com^$important
+||ionos.com^$important
+||1and1.com^$important
+
+# --- PRIVACY-CENTRIC & ALT-PROTOCOL CHANNELS ---
+||posteo.de^$important
+||ctemplar.com^$important
+||riseup.net^$important
+||mailfence.com^$important
+||disroot.org^$important
+||skiff.com^$important
+||twoblade.com^$important
+||sharp.email^$important
+||sharp-protocol.com^$important
+||thundermail.com^$important
+||tb.pro^$important
+
+# --- HIGH-RISK DISPOSABLE & TEMPORARY BURNERS ---
+||temp-mail.org^$important
+||temp-mail.io^$important
+||tempmailgen.com^$important
+||tempmailo.com^$important
+||tempemail.co^$important
+||tempemail.net^$important
+||temporary-mail.net^$important
+||generator.email^$important
+||mail.tm^$important
+||fakemailgenerator.com^$important
+||guerrillamail.com^$important
+||guerrillamailblock.com^$important
+||fakeinbox.com^$important
+||burnermail.com^$important
+||throwawaymail.com^$important
+||maildrop.cc^$important
+||dropmail.me^$important
+||trash-mail.com^$important
+||trashmail.com^$important
+||trashmail.at^$important
+||trashmail.io^$important
+||trashmail.me^$important
+||trashmail.net^$important
+||getnada.com^$important
+||nada.email^$important
+||dispostable.com^$important
+||mailinator.com^$important
+||tmailor.com^$important
+||emailondeck.com^$important
+||10minutemail.com^$important
+||10minutemail.net^$important
+||10minemail.com^$important
+||fakeemail.com^$important
+||fakemail.net^$important
+||spamgourmet.com^$important
+||spamgourmet.net^$important
+||spamgourmet.org^$important
+||inboxkitten.com^$important
+||tempr.email^$important
+||discard.email^$important
+||spamex.com^$important
+||mintemail.com^$important
+||33mail.com^$important
+||gmailnator.com^$important
+||e4ward.com^$important
+||mohmal.com^$important
+||sharklasers.com^$important
+||grr.la^$important
+||spam4.me^$important
+||getairmail.com^$important
+||mailnull.com^$important
+||filzmail.com^$important
+||spamotron.com^$important
+||wegwerfmail.de^$important
+||wegwerfmail.net^$important
+||wegwerfmail.org^$important
+||yopmail.com^$important
+||yopmail.fr^$important
+||yopmail.pp.ua^$important
+||smailpro.com^$important
+||rentry.org^$important
+||rentry.co^$important
+
+# --- MASS DELIVERY MARKETING & OUTBOUND PIPES ---
+||mailplus.nl^$important
+||emailsrvr.com^$important
+||sendgrid.net^$important
+||mailgun.com^$important
+||postmarkapp.com^$important
+||sparkpost.com^$important
+||mailchimp.com^$important
+||list-manage.com^$important
+||aweber.com^$important
+||getresponse.com^$important
+||activecampaign.com^$important
+||klaviyo.com^$important
+||constantcontact.com^$important

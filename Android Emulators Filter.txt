@@ -1,0 +1,58 @@
+# CATEGORY: Android Emulator & Sideload Environment Blocking
+# PURPOSE: DNS-level enforcement blocking virtualization platforms, cloud mobile 
+#          engines, and Android OS mirrors capable of routing untrusted VPN/DoH traffic.
+
+# --- BLUESTACKS & NOW.GG CLOUD ---
+||bluestacks.com^$important
+||now.gg^$important
+||bluestackscontent.com^$important
+
+# --- MSI APP PLAYER ---
+||msi-appplayer.com^$important
+||msi.com/landing/appplayer^$important
+
+# --- LDPLAYER ENG-CH ECOSYSTEM ---
+||ldplayer.net^$important
+||ldplayer.tw^$important
+||ldmnq.com^$important
+
+# --- NOXPLAYER NETWORKS ---
+||bignox.com^$important
+||noxinfosystems.com^$important
+||noxmobi.com^$important
+
+# --- MEMU PLAY ---
+||memuplay.com^$important
+||microvirt.com^$important
+
+# --- MUMU PLAYER (NETEASE) ---
+||mumuplayer.com^$important
+||netease.im^$important
+
+# --- GAMELOOP (TENCENT GLOBAL) ---
+||gameloop.fun^$important
+||gameloop.com^$important
+||syzs.qq.com^$important
+
+# --- GENYMOTION (LOCAL & CLOUD) ---
+||genymotion.com^$important
+||genymobile.com^$important
+
+# --- WIDE-ARRAY DEVELOPMENT EMULATORS & CLOUD RUNTIMES ---
+||testmuai.com^$important
+||lambdatest.com^$important
+||browserstack.com^$important
+||appetize.io^$important
+
+# --- BARE-METAL ANDROID BARS & LINUX PIPES ---
+||blissos.org^$important
+||blissos.com^$important
+||primeos.in^$important
+||remixos.com^$important
+||waydro.id^$important
+||anbox.io^$important
+
+# --- LEGACY EMULATORS ---
+||ko-em.com^$important
+||smartgaga.com^$important
+||leapdroid.com^$important

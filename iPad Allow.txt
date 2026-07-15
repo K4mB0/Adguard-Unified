@@ -1,0 +1,54 @@
+# CATEGORY: iPad — School Device Allowlist
+# PURPOSE: Allow legitimate iCloud, Apple and school services on the Kids iPad.
+# NOTE: Stripped of rigid IP definitions to accommodate UniFi UDM SE migration.
+#       iCloud Private Relay remains blocked to enforce local DNS profile rules.
+
+# --- ICLOUD CORE SERVICES ---
+@@||gateway.icloud.com^$important
+@@||setup.icloud.com^$important
+@@||quota.icloud.com^$important
+@@||contacts.icloud.com^$important
+@@||sharedstreams.icloud.com^$important
+@@||icloud.com^$important
+@@||icloud-content.com^$important
+@@||api.apple-cloudkit.com^$important
+@@||appattest.apple.com^$important
+
+# --- ICLOUD MAIL ---
+@@||mail.icloud.com^$important
+@@||imap.mail.me.com^$important
+@@||smtp.mail.me.com^$important
+@@||p01-smtp.icloud.com^$important
+@@||p02-smtp.icloud.com^$important
+@@||p03-smtp.icloud.com^$important
+
+# --- APPLE DEVICE SERVICES & APNS WILDCARD ---
+@@||apple.com^$important
+@@||appleid.apple.com^$important
+@@||*.push.apple.com^$important
+@@||gs.apple.com^$important
+@@||certs.apple.com^$important
+@@||ocsp.apple.com^$important
+@@||ocsp2.apple.com^$important
+@@||valid.apple.com^$important
+@@||time.apple.com^$important
+@@||configuration.apple.com^$important
+
+# --- APP STORE ---
+@@||apps.apple.com^$important
+@@||ppq.apple.com^$important
+@@||api.storekit.apple.com^$important
+
+# --- SCHOOL / EDUCATION ---
+@@||classroom.apple.com^$important
+@@||schoolwork.apple.com^$important
+
+# ============================================================
+#  HARDENED BLOCKS — PREVENTS ADGUARD BYPASS VIA PROXIES
+# Hides device IP and routes traffic through alternative tunnels if left open.
+# ============================================================
+||mask.icloud.com^$important
+||mask-api.icloud.com^$important
+||mask.apple-dns.net^$important
+||mask-t.apple-dns.net^$important
+||apple-relay.cloudflare.com^$important

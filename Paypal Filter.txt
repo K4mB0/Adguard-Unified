@@ -1,0 +1,37 @@
+# CATEGORY: PayPal & Subsidiaries — Full Infrastructure Block
+# PURPOSE: Zero-tolerance DNS-level blockade of consumer-facing PayPal wallets, 
+#          regional gateways, Venmo applications, and mobile API tracking anchors.
+#  WARNING: Breaks PayPal as a checkout option site-wide on targeted client profiles.
+
+# --- CORE PAYPAL WALLET & API CHANNELS ---
+||paypal.com^$important
+||paypal.net^$important
+||paypal.me^$important
+||paypalobjects.com^$important
+||paypal-communication.com^$important
+||paypal-survey.com^$important
+||paypalcommunity.com^$important
+||paypal-prepaid.com^$important
+||paypallabs.com^$important
+
+# --- BRAINTREE GATEWAY PIPELINES ---
+||braintreepayments.com^$important
+||braintreegateway.com^$important
+
+# --- SUBSIDIARY CONSUMER WALLETS & POINT-OF-SALE ---
+||venmo.com^$important
+||zettle.com^$important
+
+# --- REGIONAL DOMAIN LOCKDOWNS ---
+||paypal.co.uk^$important
+||paypal.de^$important
+||paypal.fr^$important
+||paypal.it^$important
+||paypal.es^$important
+||paypal.com.au^$important
+||paypal.ca^$important
+||paypal.nl^$important
+||paypal.jp^$important
+||paypal.in^$important
+||paypal.sg^$important
+||paypal.com.br^$important

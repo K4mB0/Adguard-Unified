@@ -1,0 +1,45 @@
+# CATEGORY: Facebook / Meta Platform — Full Block
+# PURPOSE: Total DNS-level eradication of Meta platforms, Messenger, Threads, Instagram, 
+#          background data engines, content delivery networks (CDNs), and tracking SDKs.
+
+# --- CORE META & FACEBOOK PORTALS ---
+||facebook.com^$important
+||facebook.net^$important
+||fb.com^$important
+||fb.me^$important
+||connect.facebook.net^$important
+||meta.com^$important
+||internalfb.com^$important
+
+# --- INSTAGRAM SUITE ---
+# Integrated configuration to wipe Instagram web and app access
+||instagram.com^$important
+||cdninstagram.com^$important
+||igcdn.com^$important
+||instagram.fcdn.net^$important
+
+# --- MESSENGER & THREADS SUITES ---
+||messenger.com^$important
+||threads.net^$important
+||threads.com^$important
+||workplace.com^$important
+
+# --- NATIVE CONTENT DELIVERY NETWORKS (CDNs) & MEDIA SANDBOXES ---
+# Destroys asset caching, media delivery, and file transfers across all Meta apps
+||fbcdn.net^$important
+||fbsbx.com^$important
+
+# --- LEGACY AKAMAI DELIVERY CLUSTERS ---
+# Preserved and cleaned precautions for embedded legacy edge redirects
+||fbcdn-creative-a.akamaihd.net^$important
+||fbcdn-photos-a.akamaihd.net^$important
+||fbcdn-profile-a.akamaihd.net^$important
+||fbcdn-sphotos-a.akamaihd.net^$important
+||fbcdn-video-a.akamaihd.net^$important
+||fbstatic-a.akamaihd.net^$important
+
+# --- MARKETING, METRICS & FOUNDATION PIPES ---
+||atlassolutions.com^$important
+||metaverse.com^$important
+||meta.foundation^$important
+||meta.community^$important

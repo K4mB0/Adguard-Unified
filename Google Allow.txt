@@ -1,0 +1,24 @@
+# CATEGORY: Google Core Services — Allowlist
+# PURPOSE: Ensure critical Google productivity and infrastructure services are never
+#          accidentally dropped by aggressive block filters.
+
+# --- CORE GOOGLE ENVIRONMENT ---
+@@||google.com^$important
+@@||googleapis.com^$important
+@@||googleusercontent.com^$important
+@@||gstatic.com^$important
+@@||ggpht.com^$important
+
+# --- GMAIL & COMMUNICATIONS ---
+@@||gmail.com^$important
+@@||googlemail.com^$important
+
+# --- YOUTUBE PLATFORM & MEDIA PIPELINES ---
+@@||youtube.com^$important
+@@||youtu.be^$important
+@@||ytimg.com^$important
+@@||googlevideo.com^$important
+@@||accounts.youtube.com^$important
+
+# --- GOOGLE WORKSPACE PRODUCTS & CDNs ---
+@@||googleworkspace.com^$important

@@ -1,0 +1,63 @@
+# CATEGORY: VoIP Infrastructure, SIP Providers & Virtual Burner Numbers
+# PURPOSE: Zero-tolerance DNS-level blockade of consumer virtual number apps, business VoIP, 
+#          and raw SIP trunk signaling channels used to bypass account verification.
+# NOTE: Targets backend endpoints while avoiding high-collateral disruption to mainstream production 2FA.
+
+# --- HIGH-TRAFFIC MOBILE BURNER & VIRTUAL NUMBER APPS ---
+# Stops kids from creating anonymous burner numbers to bypass verification checks
+||textnow.com^$important
+||textnow.me^$important
+||talkatone.com^$important
+||textmeup.com^$important
+||go-text.me^$important
+||dingtone.me^$important
+||hushed.com^$important
+||2ndline.co^$important
+||sideline.com^$important
+||pinger.com^$important
+
+# --- CONSUMER & BUSINESS VOIP PLATFORMS ---
+||zadarma.com^$important
+||nextiva.com^$important
+||callhippo.com^$important
+||vonage.com^$important
+||ringcentral.com^$important
+||8x8.com^$important
+||dialpad.com^$important
+||aircall.io^$important
+||cloudtalk.io^$important
+||placetel.de^$important
+||voicehost.co.uk^$important
+||voip.ms^$important
+||voipstudio.com^$important
+||voipstunt.com^$important
+||openphone.co^$important
+||ringover.com^$important
+||unitedworldtelecom.com^$important
+||globalcallforwarding.com^$important
+||cebodtelecom.com^$important
+||servetel.in^$important
+||dialerhq.com^$important
+||exotel.com^$important
+||broadvoice.com^$important
+||ooma.com^$important
+
+# --- INFRASTRUCTURE, SIP GATEWAYS & DEVELOPER TRUNKS ---
+# Paralyzes the underlying signaling planes used by custom software and scripts
+||sipgate.co.uk^$important
+||sipgate.com^$important
+||sipgate.de^$important
+||sip2sip.info^$important
+||telnyx.com^$important
+||telnyx.io^$important
+||plivo.com^$important
+||signalwire.com^$important
+||voxeo.com^$important
+||voipinnovations.com^$important
+||telestax.com^$important
+||onvoy.com^$important
+
+# --- TWILIO DEVELOPER TARGETS (HIGHLY TARGETED) ---
+# Blocks dynamic API sandbox channels without killing downstream merchant 2FA SMS
+||twilio.com.com^$important
+||twil.io^$important

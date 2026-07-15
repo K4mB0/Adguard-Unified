@@ -1,0 +1,100 @@
+# CATEGORY: eSIM & SMS Verification Bypass
+# PURPOSE: Zero-tolerance DNS-level block of virtual numbers, temporary SMS providers, 
+#          and unregulated eSIM vendors used to circumvent platform account verification.
+
+# ============================================================
+#  MOBILE CELLULAR INFRASTRUCTURE CONTROL
+# ============================================================
+# Blocks unauthorized localized profile sourcing.
+||esimplus.me^$important
+
+# --- POPULAR & EMERGENCE 2026 eSIM VENDORS ---
+# Restricts secondary network provisioning to bypass local gateway controls
+||airalo.com^$important
+||holafly.com^$important
+||getnomad.app^$important
+||simoptions.com^$important
+||breezeline.com^$important
+||yeasim.com^$important
+||aloosim.com^$important
+
+# --- CORE ANONYMOUS SMS PORTALS ---
+||onlinesim.io^$important
+||onlinesim.ru^$important
+||sms-man.com^$important
+||5sim.net^$important
+||5sim.biz^$important
+||sms-activate.org^$important
+||online-sms.org^$important
+||smsbest.ru^$important
+||quackr.io^$important
+||sms-numbers.com^$important
+||sms-reg.com^$important
+||smsc.ru^$important
+||sms-area.org^$important
+||smspinverify.com^$important
+||majorphones.com^$important
+||verifywithsms.com^$important
+||textverified.com^$important
+||mobilesms.io^$important
+||otp4free.com^$important
+||smscoin.com^$important
+||smspva.com^$important
+||smstome.com^$important
+||receivesms.org^$important
+||receivesms.co^$important
+||receivesms.cc^$important
+||receivesms.online^$important
+||receivesms.net^$important
+||virtual-temporary-number.com^$important
+||freephonenum.com^$important
+||sellaite.com^$important
+||sms-online.co^$important
+||fakenum.com^$important
+||freitempsms.com^$important
+||mytrashmobile.com^$important
+||sms-verification.com^$important
+||smsverification.online^$important
+||smsreceivefree.com^$important
+||smsreceive.net^$important
+||receive-sms.com^$important
+||receive-smss.com^$important
+||receive-smss.live^$important
+||sms24.me^$important
+||receivefreesms.net^$important
+||receive-a-sms.com^$important
+||receive-sms-online.info^$important
+
+# --- VOIP / VIRTUAL NUMBER APPLICATIONS ---
+||textnow.com^$important
+||textplus.com^$important
+||textfree.us^$important
+||textmeup.com^$important
+||sideline.com^$important
+||phoner.com^$important
+||dingtone.me^$important
+||zadarma.com^$important
+||callhippo.com^$important
+||krispcall.com^$important
+||hushed.com^$important
+||burnerapp.com^$important
+||cloaked.app^$important
+||vsimapp.com^$important
+||cloudsim.com^$important
+||smsvirtual.online^$important
+
+# --- HIGH-VOLUME DECENTRALIZED SMS FLOODERS ---
+||smspool.net^$important
+||smspool.org^$important
+||getsmscode.com^$important
+||oksms.org^$important
+||smser.net^$important
+||tempnumber.org^$important
+||virtualsim.net^$important
+||receivetxt.com^$important
+||temp-number.org^$important
+||temp-number.com^$important
+||freesmsverification.com^$important
+||smscodeonline.com^$important
+||smsbva.com^$important
+||simsms.org^$important

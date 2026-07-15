@@ -1,0 +1,64 @@
+# CATEGORY: Discord Platform — Full Block
+# PURPOSE: Total DNS-level eradication of the Discord ecosystem, including core clients, 
+#          voice/video infrastructure, API web sockets, media CDNs, and token scrapers.
+
+# --- CORE DISCORD DOMAINS ---
+||discord.com^$important
+||discord.gg^$important
+||discord.gift^$important
+||discord.new^$important
+||discord.media^$important
+||discordapp.com^$important
+||discordapp.net^$important
+||dis.gd^$important
+||discord.co^$important
+
+# --- MEDIA & CONTENT DELIVERY NETWORKS (CDNs) ---
+||discordcdn.com^$important
+||discordapp-cdn.net^$important
+||discord-attachments-uploads-prd.s3.us-west-2.amazonaws.com^$important
+
+# --- CLIENT API, STATUS & GATEWAY WEBSOCKETS ---
+||discord-api.com^$important
+||discordstatus.com^$important
+||gateway.discord.gg^$important
+||latency.discord.media^$important
+
+# --- INTERNAL APPS & SERVICE AGGREGATORS ---
+||discordactivities.com^$important
+||discord-activities.com^$important
+||discordsays.com^$important
+||discord.design^$important
+||discord.store^$important
+||discord.dev^$important
+||discord.tools^$important
+||discordmerch.com^$important
+
+# --- BOT DIRECTORIES & ECOSYSTEM HUDs ---
+||top.gg^$important
+||dsc.gg^$important
+||discordlist.gg^$important
+||discordhub.com^$important
+||discord.bio^$important
+||discord.id^$important
+||discord.me^$important
+||discord.skysim.sbs^$important
+||discord.c99.nl^$important
+||bots.ondiscord.xyz^$important
+
+# --- REDIRECTS, INVITES & LINK SHORTENERS ---
+||dsc.link^$important
+||invite.gg^$important
+||discord.link^$important
+||cord.vip^$important
+||cord.xyz^$important
+||dsc-link.com^$important
+||discordinvite.xyz^$important
+||invite-discord.me^$important
+
+# --- FRAUDULENT, PHISHING & SPOOF DOMAINS ---
+||discordfiles.com^$important
+||discordgift.net^$important
+||discordverify.me^$important
+||discordtoken.shop^$important
+||discordserver.xyz^$important

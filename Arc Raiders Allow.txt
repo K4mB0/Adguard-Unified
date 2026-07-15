@@ -1,0 +1,27 @@
+# CATEGORY: Arc Raiders & Embark Studios Whitelist
+# PURPOSE: Explicitly allow game client authentication, live matchmaking,
+#          and anti-cheat heartbeats to eliminate mid-match disconnects.
+# CRITICAL FIX: Explicitly whitelists the es-pio backend pub/sub infrastructure.
+
+# --- EMBARK GAMES IDENTITY & MAIN ENTRY PIPES ---
+# Handles game client profile loads, Embark ID sync, and regional matchmaking handshakes
+@@||arcraiders.com^$important
+@@||embark.games^$important
+@@||embark-studios.com^$important
+@@||embark.net^$important
+
+# --- CRITICAL LIVE MATCHMAKING & MESSAGE INFRASTRUCTURE ---
+# Prevents ARAU0287 connection drop errors triggered by privacy blocklists
+@@||es-pio.net^$important
+@@||europe.es-pio.net^$important
+@@||api-gateway.europe.es-pio.net^$important
+@@||client2pubsub.europe.es-pio.net^$important
+
+# --- ANTI-CHEAT, LIVE TELEMETRY & MULTIPLAYER SIGNALING ---
+# Prevents false-positive integrity drops from strict network blocklists
+@@||embark.fail^$important
+@@||signaling-service-prod.eun1.live.rtcp.on.epicgames.com^$important
+
+# --- COMMUNITY CAPTURE & MOD DATA HOOKS ---
+@@||ampltd2.medal.tv^$important
+@@||r2.buffersnow.com^$important

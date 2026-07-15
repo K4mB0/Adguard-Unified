@@ -1,0 +1,59 @@
+# CATEGORY: Bluesky / AT Protocol — Full Block
+# PURPOSE: Total DNS-level eradication of the Bluesky social network, 
+#          cross-protocol bridges, and underlying AT Protocol federation vectors.
+
+# --- CORE BLUESKY DOMAINS ---
+||bsky.app^$important
+||bsky.social^$important
+||bsky.network^$important
+||blueskyweb.xyz^$important
+||bluesky.com^$important
+
+# --- AT PROTOCOL CENTRAL INFRASTRUCTURE ---
+||atproto.com^$important
+||atproto.dev^$important
+||did.plc.directory^$important
+||plc.directory^$important
+
+# --- BLUESKY CDN, MEDIA, & EVENT CHANNELS ---
+||cdn.bsky.app^$important
+||video.bsky.app^$important
+||bgs.bsky.social^$important
+
+# --- INTER-PROTOCOL BRIDGES (FEDERATION LOOPHOLES) ---
+# Blocks cross-posting translation layers that pass data between 
+# ActivityPub (Mastodon/Threads), Nostr, and AT Protocol systems.
+||bridge.atproto.com^$important
+||brid.gy^$important
+||skybridge.fly.dev^$important
+
+# --- FIRST-PARTY DEPLOYMENT & DEVELOPMENT TARGETS ---
+||atmosphere.tools^$important
+||api.bsky.app^$important
+||api.bsky.social^$important
+
+# --- DETACHED AT PROTOCOL RUNTIMES & PROJECTS ---
+# Independent micro-platforms leveraging atproto schemas outside core bsky appviews.
+||tangled.sh^$important
+||blacksky.app^$important
+||leaflet.pub^$important
+
+# --- KNOWN THIRD-PARTY CLIENTS & ECOSYSTEM FRONTENDS ---
+||deck.blue^$important
+||skyview.social^$important
+||staging.bsky.app^$important
+||graysky.app^$important
+||klearsky.app^$important
+||flat.blue^$important
+||psky.app^$important
+||tokimeki-mastodon.vercel.app^$important
+||firesky.tv^$important
+||skyfeed.app^$important
+||skythread.app^$important
+||bsky.cool^$important
+||whtwnd.com^$important
+||frontpage.fyi^$important
+||smokesignal.events^$important
+||streamplace.app^$important
+||skylight.social^$important
+||flashes.app^$important

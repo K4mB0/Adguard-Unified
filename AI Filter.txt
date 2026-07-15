@@ -1,0 +1,267 @@
+# CATEGORY: AI Platform, Companion & Uncensored Repository Blocking
+# PURPOSE: Full DNS-level eradication of unauthorized commercial AI platforms, uncensored 
+#          LLM models, NSFW text/roleplay wrappers, companion bots, image generators, 
+#          and open-source model repositories used to pull raw tensor data weights.
+
+# ============================================================
+# ⚠️ OPEN SOURCE REPOSITORIES & MODEL HUBS (HUGGING FACE CONSOLIDATION)
+# ============================================================
+# Drops core infrastructure and community-driven caching mirrors to kill unfiltered model sourcing.
+||huggingface.co^$important
+||hf.co^$important
+||huggingfaceusercontent.com^$important
+||hf.space^$important
+||huggingface.cloud^$important
+||hf-mirror.com^$important
+||hf-mirror.net^$important
+||hfmirror.com^$important
+||huggingface-mirror.com^$important
+||hfmirror.xyz^$important
+||hfmirror.cc^$important
+||hfmirror.site^$important
+||hfmirror.cfd^$important
+
+# --- CIVITAI & ANONYMOUS TEXT MODEL MIRRORS ---
+||civitai.com^$important
+||civitaiarchive.com^$important
+||civitasbay.org^$important
+||civarchive.com^$important
+
+# --- CHARACTER AI & PLATFORM ROUTING MIRRORS ---
+||character.ai^$important
+||characterai.io^$important
+||api.characterai.com^$important
+||api.characterai.io^$important
+||characterai.org^$important
+||charakter.ai^$important
+||t3.chat^$important
+||wyvernchat.com^$important
+||wyvern.chat^$important
+
+# --- JANITOR & JANNY AI ROUTING INFRASTRUCTURE ---
+# Fully consolidated with deep Cloudflare Workers bypass routing paths
+||janitorai.com^$important
+||janitor.ai^$important
+||jannyai.com^$important
+||janny.alkane.workers.dev^$important
+||r.alkane.workers.dev^$important
+||janny.oxylab.workers.dev^$important
+||lr.oxylab.workers.dev^$important
+||janny.sigma.workers.dev^$important
+||janny.proxy.workers.dev^$important
+||janny.relay.workers.dev^$important
+||janny.shadow.workers.dev^$important
+
+# --- REPLIKA & COMPANION VIRTUAL APP PORTALS ---
+||replika.ai^$important
+||replika.com^$important
+||botify.ai^$important
+||chai.ml^$important
+||replai.ai^$important
+||anima.ai^$important
+
+# --- KOBOLDAI & LOCAL STACK RUNTIMES ---
+||koboldai.net^$important
+||fiction.live^$important
+||textgen.dev^$important
+||oobabooga.net^$important
+
+# --- NOVELAI & STORY WRITING DERIVATIVES ---
+||novelai.net^$important
+||novelai.io^$important
+||scenario.gg^$important
+
+# --- AI DUNGEON / LATITUDE METRICS ---
+||aidungeon.io^$important
+||latitude.io^$important
+
+# --- SEARCH AGENTS & GENERAL AI ASSISTANTS ---
+||perplexity.ai^$important
+||you.com^$important
+||chatsum.ai^$important
+||parallel.ai^$important
+||thinkinai.xyz^$important
+
+# --- ULTRA-AGGRESSIVE AI GIRLFRIEND & COMPANION APPS ---
+||candy.ai^$important
+||dreamgf.ai^$important
+||dreamtavern.ai^$important
+||nextpart.ai^$important
+||venus.moe^$important
+||aiallure.com^$important
+||spicychat.ai^$important
+||harpy.chat^$important
+||bot3.ai^$important
+||joyland.ai^$important
+||nyai.me^$important
+||xoul.ai^$important
+||risuai.xyz^$important
+||risuai.net^$important
+||polybuzz.ai^$important
+||saucepan.ai^$important
+||quillgen.app^$important
+||character-tavern.com^$important
+||talkie-ai.com^$important
+||muah.ai^$important
+||nomi.ai^$important
+||kindroid.ai^$important
+||joi.ai^$important
+||virtualcrush.ai^$important
+||lovescape.ai^$important
+||swipey.ai^$important
+||kupid.ai^$important
+
+# --- AI IMAGE GENERATION, UNDRESS, & PROMPT HUBS ---
+||genur.art^$important
+||tensor.art^$important
+||seaart.ai^$important
+||mage.space^$important
+||pixai.art^$important
+||promptchan.ai^$important
+||seduced.ai^$important
+||ourdream.ai^$important
+||soulgen.ai^$important
+||nakedly.ai^$important
+||nudeai.fun^$important
+||aiundress.cc^$important
+||undress.app^$important
+||undressai.tools^$important
+||deepnude.ai^$important
+||deepnude.cc^$important
+||deepnude.to^$important
+||nudify.online^$important
+||nudifier.ai^$important
+||xchar.ai^$important
+||vibenude.com^$important
+||secretsai.io^$important
+||zencreator.pro^$important
+||eromify.com^$important
+||xotic.ai^$important
+||sugarlab.ai^$important
+||pornworks.ai^$important
+||pornx.ai^$important
+||mydreams.studio^$important
+||flux1ai.com^$important
+||fluxpro.ai^$important
+||unstability.ai^$important
+||aitubo.ai^$important
+||dreamlike.art^$important
+||playboxai.com^$important
+||deepmode.ai^$important
+||girlfriendly.ai^$important
+||rolemantic.ai^$important
+||ainudez.com^$important
+||fixart.ai^$important
+||prompthero.com^$important
+||bfl.ml^$important
+||flixmomo.org^$important
+
+# --- LOCAL DESKTOP RUNTIMES & EMULATION BACKENDS ---
+||ollama.com^$important
+||ollama.ai^$important
+||jan.ai^$important
+||localai.io^$important
+||openclaw.ai^$important
+||lodestone.ai^$important
+
+# --- AI API ENGINE INTEGRATIONS & UNCENSORED WRAPPERS ---
+||openrouter.ai^$important
+||g4f.dev^$important
+||g4f.space^$important
+||cerebras.ai^$important
+||groq.com^$important
+||llm7.io^$important
+||uncloseai.com^$important
+||ppq.ai^$important
+||aimlapi.com^$important
+||api.featherless.ai^$important
+||models.dev^$important
+||exa.ai^$important
+||z.ai^$important
+||theoldllm.vercel.app^$important
+||poe.com^$important
+||poe.live-video.net^$important
+||tavily.com^$important
+
+# --- ADDITION ROLEPLAY CHANNELS & WAIFU GENERATORS ---
+||charstar.ai^$important
+||pov.chat^$important
+||aihub.chat^$important
+||sillytavern.app^$important
+||sillytavern.ai^$important
+||open-assistant.io^$important
+||characterforge.ai^$important
+||paradot.ai^$important
+||romantic.ai^$important
+||dreamily.ai^$important
+||withai.com^$important
+||withai.ai^$important
+||aibuddy.chat^$important
+||emerson.ai^$important
+||eternityai.net^$important
+||kajiwoto.com^$important
+||lilith.ai^$important
+||sakura.fm^$important
+||agnaai.com^$important
+||agnaai.net^$important
+||proxiai.app^$important
+||proxiai.com^$important
+||yourcharacter.ai^$important
+||aisekai.ai^$important
+||aisekai.chat^$important
+||aiwaifu.dev^$important
+||aiwaifu.net^$important
+||waifu.im^$important
+||crushon.ai^$important
+||juicychat.ai^$important
+||chat.kink.ai^$important
+||girlfriendgpt.com^$important
+||girlspreples.org^$important
+||flowgpt.com^$important
+
+# --- LEGACY INTERACTIVE AI AGENTS ---
+||cleverbot.com^$important
+||eviebot.com^$important
+||boibot.com^$important
+||jenniferbot.com^$important
+||personalityforge.com^$important
+
+# --- ALTERNATIVE ENGINES & LARGE ENTERPRISE CORES ---
+||grok.com^$important
+||x.ai^$important
+||pollinations.ai^$important
+||base44.app^$important
+||leonardo.ai^$important
+
+# --- CHARACTER CARD NETWORKS & CHUB STORAGE LOCKERS ---
+||aicharactercards.com^$important
+||characterhub.org^$important
+||characterhub.com^$important
+||character-hub.org^$important
+||charhub.io^$important
+||chub.ai^$important
+||compendium.skinship.xyz^$important
+||perchance.org^$important
+
+# --- INDUSTRIAL CHATBOT EMULATORS (NEOCITIES REPLICAS) ---
+||chatbots.neocities.org^$important
+||foxbots.neocities.org^$important
+||aicg.neocities.org^$important
+||deberiasbots.neocities.org^$important
+||jiriro7912.neocities.org^$important
+||partyintheanchorhold.neocities.org^$important
+||kopye.neocities.org^$important
+||mlpchag.neocities.org^$important
+||leafcanfly.neocities.org^$important
+||p1nkhamster.xyz^$important
+||samidy.com^$important
+
+# --- BYPASS TUNNELS & STEALTH REVERSE PROXY DISCOVERIES ---
+||genit.al^$important
+||openaicommunities.space^$important
+||sacrilegious.uwu.ai^$important
+||ytapi.org^$important
+||mp3api.ytjar.info^$important
+||oh.fuuuuuck.com^$important
+||flagsmith-proxy-worker.inventive.workers.dev^$important
+||ome.tv^$important

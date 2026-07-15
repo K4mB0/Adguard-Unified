@@ -1,0 +1,18 @@
+# CATEGORY: Microsoft Infrastructure & Office 365 Whitelist
+# PURPOSE: Explicitly allow core productivity, development environments, 
+#          and enterprise authentication while avoiding broad CDN security holes.
+
+# --- SHAREPOINT & OFFICE 365 LIVE PIPES ---
+@@||ennilive-my.sharepoint.com^$important
+@@||ecs.office.com^$important
+@@||r4.res.office365.com^$important
+
+# --- VISUAL STUDIO & VS CODE ECOSYSTEM ---
+@@||visualstudio.com^$important
+@@||vscode-cdn.net^$important
+@@||vscode-unpkg.net^$important
+
+# --- TARGETED MICROSOFT MICRO-SERVICES (SAFE CDN ENDPOINTS) ---
+@@||mscend.net^$important
+@@||update.microsoft.com^$important
+@@||xboxlive.com^$important

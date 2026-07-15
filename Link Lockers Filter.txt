@@ -1,0 +1,49 @@
+# CATEGORY: Link Shorteners, Lockers & Bio Aggregators
+# PURPOSE: Block monetised link lockers (gating downloads behind surveys/malvertising) 
+#          and bio aggregators commonly used to bypass platform destination restrictions.
+# NOTE: Standard utility shorteners (bit.ly, tinyurl) are left open to avoid breaking utility traffic.
+
+# --- BIO LINK AGGREGATORS ---
+||linktr.ee^$important
+||linkr.bio^$important
+||beacons.ai^$important
+||beacons.page^$important
+||solo.to^$important
+||linkpop.com^$important
+||campsite.bio^$important
+||taplink.cc^$important
+||linkfly.to^$important
+||allmylinks.com^$important
+||lnk.bio^$important
+||bio.link^$important
+||lnk.to^$important
+
+# --- LINK LOCKERS (AD-GATED & SURVEY-TRAPPED) ---
+||ouo.io^$important
+||linkvertise.com^$important
+||work.ink^$important
+||redirect-api.work.ink^$important
+||rekonise.com^$important
+||adf.ly^$important
+||adfoc.us^$important
+||shorte.st^$important
+||boost.ink^$important
+
+# --- LOOT/GAMING GATEWAY RUNTIMES ---
+||lootlabs.gg^$important
+||loot-link.com^$important
+||lootdest.org^$important
+||lootlinks.net^$important
+||lootdest.com^$important
+
+# --- SUB2UNLOCK ECOSYSTEM ---
+||sub2unlock.io^$important
+||sub2unlock.org^$important
+||sub2unlock.net^$important
+||sub2unlock.me^$important
+||sub4unlock.com^$important
+
+# --- BLIND REDIRECT NETWORKS ---
+||direct-link.net^$important
+||link-center.net^$important
+||link-to.net^$important

@@ -1,0 +1,9 @@
+# CATEGORY: Browser Telemetry & Conversion Blocks
+# PURPOSE: Zero-tolerance blockade on non-critical metadata harvesting, tracking diagnostics, 
+#          and background system metrics lines.
+
+# --- BROWSER TELEMETRY & CONVERSION BLOCKS ---
+||firefox.settings.services.mozilla.com^$important
+||normandy.cdn.mozilla.net^$important
+||freeconvert.com^$important
+||paraflags-wiki.org^$important

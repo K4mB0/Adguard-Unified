@@ -1,0 +1,119 @@
+# CATEGORY: Torrents, BitTorrent Trackers, P2P Clients & Tor Onion Network
+# PURPOSE: Complete DNS-level blockade of torrent indexers, DHT scraper engines, 
+#          in-browser WebTorrent streaming APIs, P2P trackers, and Tor onion routing bridges.
+# NOTE: Blocks both file piracy and the primary anonymous darknet routing entry points.
+
+# --- MAJOR BITTORRENT INDEXERS & CRAWLERS ---
+||1337x.to^$important
+||1337x.tw^$important
+||thepiratebay.org^$important
+||thepiratebay.se^$important
+||bt4gprx.com^$important
+||bt4g.com^$important
+||torrentleech.org^$important
+||demonoid.is^$important
+||bitsnoop.com^$important
+||torrentz2.nz^$important
+||torrentdownloads.me^$important
+||limetorrents.lol^$important
+||kickasstorrents.to^$important
+||kickasst.net^$important
+||yts.mx^$important
+||eztv.re^$important
+||nyaa.si^$important
+||rutracker.org^$important
+||magnetdl.com^$important
+||zooqle.com^$important
+||torlock.com^$important
+||solidtorrents.net^$important
+||torrentgalaxy.to^$important
+||bitsearch.to^$important
+||monkeydl.to^$important
+||torrentbay.st^$important
+||rarbg.to^$important
+||torrentfunk.com^$important
+||bt-chat.com^$important
+||ettv.to^$important
+||glodls.to^$important
+||seedpeer.me^$important
+||torrentproject2.se^$important
+
+# --- RECOVERED PIRACY PORTALS (FROM MALWARE LIST) ---
+||fitgirl-repacks.site^$important
+||sceneaccess.org^$important
+
+# --- ADDITIONAL PIRACY EDGES & CLONES ---
+||zamunda.net^$important
+||arenabg.com^$important
+||kinozal.tv^$important
+||rutor.info^$important
+||nnmclub.to^$important
+||rustorka.com^$important
+||tparser.org^$important
+||torrentz-proxy.com^$important
+||pirateproxy.live^$important
+||bayproxy.me^$important
+||ahoy.one^$important
+||unblocked.lol^$important
+||opentor.net^$important
+||torlink.net^$important
+||bittorrentdownload.net^$important
+||fasttorrent.ru^$important
+
+# --- GLOBAL P2P TRACKERS & SEED ANCHORS ---
+# Paralyzes client-side handshake exchanges to stop torrent downloads from initializing
+||tracker.openbittorrent.com^$important
+||tracker.opentrackr.org^$important
+||tracker.publicbt.com^$important
+||tracker.leechers-paradise.org^$important
+||tracker.internetwarriors.net^$important
+||tracker.torrent.eu.org^$important
+||tracker.cyberia.is^$important
+||tracker.dler.org^$important
+||publictracker.xyz^$important
+||demonii.com^$important
+||bittor.pw^$important
+
+# --- TORRENT CLIENT DISTRIBUTIONS & WEB-STREAMING APIs ---
+# Shuts down standalone installers and stops in-browser WebTorrent media streaming scripts
+||utorrent.com^$important
+||bittorrent.com^$important
+||vuze.com^$important
+||bitcomet.com^$important
+||deluge-torrent.org^$important
+||qbittorrent.org^$important
+||transmissionbt.com^$important
+||tixati.com^$important
+||frostwire.com^$important
+||webtorrent.io^$important
+||aria2.github.io^$important
+||biglybt.com^$important
+||qu.ax^$important
+
+# --- TOR PROJECT OFFICIAL INFRASTRUCTURE ---
+||torproject.org^$important
+||torproject.net^$important
+||torproject.ch^$important
+||torproject.se^$important
+||torproject.nl^$important
+||torproject.de^$important
+||torproject.io^$important
+||torproject.cz^$important
+||torbrowser.org^$important
+||torpark.net^$important
+||tor-node.net^$important
+||tornodes.net^$important
+||torexit.net^$important
+
+# --- ONION PROXIES, WEB BRIDGES, & ANONYMOUS SLIPS ---
+# Wipes out clear-web gateways used to view .onion darknet files without using Tor
+||meek.azureedge.net^$important
+||torservers.net^$important
+||privoxy.org^$important
+||tor2web.io^$important
+||tor2web.org^$important
+||onion.pet^$important
+||onion.cab^$important
+||onion.ws^$important
+||onion.ly^$important
+||onion.sh^$important

@@ -1,0 +1,176 @@
+# CATEGORY: Cryptocurrency & Privacy Coin — Full Block
+# PURPOSE: Total DNS-level eradication of cryptocurrency nodes, swap APIs, wallets, 
+#          privacy-coin infrastructure (Monero), trading exchanges, and mining pools.
+
+# --- MONERO CORE & WALLET INFRASTRUCTURE ---
+||monero.com^$important
+||monero.org^$important
+||getmonero.org^$important
+||cakewallet.com^$important
+||monero.fail^$important
+||featherwallet.org^$important
+||featherwallet.net^$important
+||mymonero.com^$important
+||monerica.com^$important
+||monerod.org^$important
+||monerodevs.org^$important
+||moneroworld.com^$important
+||moneroj.net^$important
+||stackwallet.com^$important
+||xmr.ru^$important
+||xmr.sh^$important
+||xmr.to^$important
+||xmr-tw.org^$important
+||xmrchain.net^$important
+||explorer.monero.com^$important
+
+# --- DECENTRALIZED MONERO NODES & COMMUNITY APIS ---
+||0x.no^$important
+||nanoslo.0x.no^$important
+||sethforprivacy.com^$important
+||nownodes.io^$important
+||trocador.app^$important
+||agoradesk.com^$important
+||ditatompel.com^$important
+||triplebit.org^$important
+||monerohash.com^$important
+||monerodice.pro^$important
+||xmr.l0l.fi^$important
+||xmr.surf^$important
+||0x255.xyz^$important
+||xmr-ppq-v2.centralus.cloudapp.azure.com^$important
+
+# --- NANO ECOSYSTEM CONVERTERS ---
+||nano-gpt.com^$important
+||nanocurrency.org^$important
+||nanos.cc^$important
+||nanolooker.com^$important
+
+# --- ANONYMOUS SWAP INTERFACES & DEFI BRIDGES ---
+||godex.io^$important
+||stealthex.io^$important
+||changenow.io^$important
+||simpleswap.io^$important
+||exolix.com^$important
+||swapzone.io^$important
+||letsexchange.io^$important
+||swapspace.co^$important
+||fixedfloat.com^$important
+||sideshift.ai^$important
+||majesticbank.sc^$important
+||orangefren.com^$important
+||houstonswap.com^$important
+||stealthex.org^$important
+
+# --- CENTRALIZED TRADING EXCHANGES ---
+||binance.com^$important
+||binance.org^$important
+||kraken.com^$important
+||kucoin.com^$important
+||bybit.com^$important
+||okx.com^$important
+||mexc.com^$important
+||gate.io^$important
+||htx.com^$important
+||huobi.com^$important
+||bitfinex.com^$important
+||bitstamp.net^$important
+||gemini.com^$important
+||crypto.com^$important
+||coinex.com^$important
+||bydfi.com^$important
+||xt.com^$important
+
+# --- CRYPTO PAYMENT PROCESSORS ---
+||nowpayments.io^$important
+||coingate.com^$important
+||bitpay.com^$important
+||coinpayments.net^$important
+||cryptomus.com^$important
+||plisio.net^$important
+||oxapay.com^$important
+||crypton.sh^$important
+||kycnot.me^$important
+||silentapi.com^$important
+||razorpay.com^$important
+||coinbase.com^$important
+||commerce.coinbase.com^$important
+||pay.coinbase.com^$important
+
+# --- DECENTRALIZED EXCHANGES (DEX) & AMMS ---
+||uniswap.org^$important
+||pancakeswap.finance^$important
+||dydx.exchange^$important
+||dydx.trade^$important
+||curve.fi^$important
+||1inch.io^$important
+||sushiswap.com^$important
+||raydium.io^$important
+
+# --- HARDWARE & SOFTWARE WALLETS ---
+||metamask.io^$important
+||trustwallet.com^$important
+||exodus.com^$important
+||electrum.org^$important
+||wasabiwallet.io^$important
+||samouraiwallet.com^$important
+||ledger.com^$important
+||trezor.io^$important
+||myetherwallet.com^$important
+||rainbow.me^$important
+||phantom.app^$important
+||solflare.com^$important
+
+# --- CRYPTO MINING POOLS & TOOLS ---
+||xmrig.com^$important
+||moneroocean.stream^$important
+||supportxmr.com^$important
+||minexmr.com^$important
+||hashvault.pro^$important
+||miningpoolhub.com^$important
+||nicehash.com^$important
+||2miners.com^$important
+||nanopool.org^$important
+||f2pool.com^$important
+||antpool.com^$important
+||viabtc.com^$important
+
+# --- BLOCKCHAIN EXPLORERS & DATA CHANNELS ---
+||blockchain.com^$important
+||blockchair.com^$important
+||etherscan.io^$important
+||bscscan.com^$important
+||polygonscan.com^$important
+||solscan.io^$important
+||tronscan.org^$important
+||blockstream.info^$important
+
+# --- CRYPTO PRICE, SPECULATION & PREDICTION AGGREGATORS ---
+||coinmarketcap.com^$important
+||coingecko.com^$important
+||coindesk.com^$important
+||cointelegraph.com^$important
+||decrypt.co^$important
+||cryptonews.com^$important
+||polymarket.com^$important
+
+# --- NFT TRADING PLATFORMS ---
+||opensea.io^$important
+||rarible.com^$important
+||foundation.app^$important
+||niftygateway.com^$important
+||superrare.com^$important
+||blur.io^$important
+||magic.eden^$important
+
+# --- DEV WEB3 INFRASTRUCTURE PIPES & CDN HOSTS ---
+||infura.io^$important
+||alchemy.com^$important
+||quicknode.com^$important
+||ankr.com^$important
+||pokt.network^$important
+||thegraph.com^$important
+||chainlink.com^$important
+||ipfs.io^$important
+||pinata.cloud^$important
+||web3.storage^$important

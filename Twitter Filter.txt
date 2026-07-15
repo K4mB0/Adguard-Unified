@@ -1,0 +1,79 @@
+# CATEGORY: Twitter / X Platform, Alternative Frontends & xAI Core
+# PURPOSE: Complete DNS-level eradication of Twitter/X microblogging assets, image hosting, 
+#          official mobile application APIs, independent xAI Grok engines, and all decentralized 
+#          alternative frontends (Nitter, XCancel, Embed Proxies) used to scrub tracking.
+
+# --- OFFICIAL TWITTER / X CORE INTERFACES ---
+||twitter.com^$important
+||x.com^$important
+||t.co^$important
+||twttr.com^$important
+||twitter.jp^$important
+||twitter.co^$important
+||twitter.net^$important
+||twitter.org^$important
+
+# --- OFFICIAL MEDIA CONTENT DELIVERY & SYSTEM BACKENDS ---
+||twimg.com^$important
+||twitterinc.com^$important
+||api.twitter.com^$important
+||api.x.com^$important
+
+# --- XAI / GROK ARTIFICIAL INTELLIGENCE HUBS ---
+# Blocks independent deep learning pipelines and API model endpoints 
+||grok.com^$important
+||x.ai^$important
+||xai.com^$important
+
+# --- DYNAMIC EMBED PROXIES & MEDIA EXTRACTION SLIPS ---
+# Blocks servers used to bypass video/media stream filters in external windows
+||vxtwitter.com^$important
+||fixupx.com^$important
+||fixvx.com^$important
+||fxembed.com^$important
+
+# --- XCANCEL & ACTIVE FRONTEND REPOSITORIES ---
+# Zero-tolerance lockdown on active alternative web client implementations
+||xcancel.com^$important
+||twitt.re^$important
+
+# --- DECENTRALIZED NITTER PLATFORM INSTANCES ---
+||nitter.net^$important
+||nitter.eu^$important
+||nitter.poast.org^$important
+||nitter.privacydev.net^$important
+||nitter.space^$important
+||nitter.aosus.link^$important
+||nitter.dashy.a3x.dn.nyx.im^$important
+||nitter.kavin.rocks^$important
+||nitter.mint.lgbt^$important
+||nitter.pek.li^$important
+||nitter.us.catsarch.com^$important
+||nitter.aishiteiru.moe^$important
+||nitter.ethibox.fr^$important
+||nitter.namazso.eu^$important
+||nitter.mailstation.de^$important
+||nitter.actionsack.com^$important
+||nitter.cattube.org^$important
+||nitter.skrep.in^$important
+||nitter.database.red^$important
+||nitter.cc^$important
+||nitter.domain.glass^$important
+||nitter.42l.fr^$important
+||nitter.pussthecat.org^$important
+||nitter.nixnet.services^$important
+||nitter.fdn.fr^$important
+||nitter.unixfox.eu^$important
+||nitter.40two.app^$important
+||nitter.exonip.de^$important
+||nitter.my.id^$important
+||nitter.zebes.info^$important
+||nitter.tiekoetter.com^$important
+||nitter.d420.de^$important
+||birdsite.xanny.family^$important
+
+# --- REDIRECT ARCHITECTURES & METAMORPHIC AGGREGATORS ---
+# Shuts down automated lookup engines hunting for active frontend servers
+||twiiit.com^$important
+||status.d420.de^$important
+||farside.link^$important

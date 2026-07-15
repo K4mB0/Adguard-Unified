@@ -1,0 +1,84 @@
+# CATEGORY: Dating Sites & Apps — Full Block
+# PURPOSE: DNS-level block enforcement against adult dating apps, matchmaking portals, 
+#          relationship vectors, and their supporting media, API, and auth CDNs.
+
+# --- GLOBAL MARKET DOMINATORS ---
+||tinder.com^$important
+||gotinder.com^$important
+||bumble.com^$important
+||badoo.com^$important
+||hinge.co^$important
+||grindr.com^$important
+||okcupid.com^$important
+||match.com^$important
+||pof.com^$important
+||plentyoffish.com^$important
+
+# --- CENTRALIZED MEDIA & CONTENT DELIVERY NETWORKS (CDNs) ---
+||tindersparks.com^$important
+||tinder.net^$important
+||tindercdn.com^$important
+||bumblecdn.com^$important
+||badoocdn.com^$important
+||hingecdn.com^$important
+||grindrcdn.com^$important
+||okcupidcdn.com^$important
+||matchcdn.com^$important
+||pofcdn.com^$important
+
+# --- MATURE & MAINSTREAM PLATFORMS ---
+||eharmony.com^$important
+||eharmony.co.uk^$important
+||zoosk.com^$important
+||coffee-meets-bagel.com^$important
+||coffeemeetsbagel.com^$important
+||ourtime.com^$important
+||christianmingle.com^$important
+||jdate.com^$important
+||happn.com^$important
+||happn.fr^$important
+||tagged.com^$important
+||meetme.com^$important
+||skout.com^$important
+||lovoo.com^$important
+||her.com^$important
+||herapp.com^$important
+||feeld.co^$important
+||taimi.com^$important
+||elitesingles.com^$important
+||theleague.com^$important
+
+# --- POPULAR & EMERGENCE 2025/2026 TARGETS ---
+||boo.world^$important
+||boo.chat^$important
+||timeleft.com^$important
+||arrows.com^$important
+||feels.co^$important
+||omi.sg^$important
+||ihappydate.com^$important
+||kismia.com^$important
+||stir.com^$important
+||blk-app.com^$important
+||3fun.app^$important
+
+# --- DIRECT ACCELERATED & CASUAL CONNECTIONS ---
+||pure.app^$important
+||downapp.com^$important
+||hily.com^$important
+||hilydating.com^$important
+||snackapp.com^$important
+||irisdating.com^$important
+||kippoapp.com^$important
+||meete.com^$important
+||blendr.com^$important
+||whatsyourprice.com^$important
+||xmeets.com^$important
+||ashleymadison.com^$important
+||adultfriendfinder.com^$important
+||farmersonly.com^$important
+
+# --- GEOLOCATION, METRICS & ATTRIBUTION TRACKERS ---
+# Blocks the underlying attribution APIs apps use to manage swipe metrics
+||branch.io^$important
+||adjust.com^$important
+||appsflyer.com^$important
