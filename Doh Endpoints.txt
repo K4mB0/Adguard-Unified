@@ -161,6 +161,9 @@
 # --- BLAHDNS ---
 ||blahdns.com^$important
 
+# --- DNS LEAKTEST ---
+||dnsleaktest.com^$important
+
 # --- DDNS PROVIDERS (used for self-hosted resolver endpoints) ---
 ||ddns.net^$important
 ||duckdns.org^$important
