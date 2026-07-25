@@ -226,3 +226,9 @@
 ||doh.libredns.gr^$important
 ||hf-mirror.com^$important
 ||bsky.app^$important
+
+# --- ORACLE CLOUD ---
+||oracle.com^
+||oraclecloud.com^
+||oracleimg.com^
+||oracle.cloud.com^
