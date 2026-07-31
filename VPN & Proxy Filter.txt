@@ -216,6 +216,9 @@
 ||advanced.name^$important
 ||free-proxy-list.net^$important
 ||proxydb.net^$important
+||freeproxy.world^
+||sockslist.us^
+||socks.aimultiple.com^
 
 # --- ENCRYPTED DISCOVERY & ALTERNATIVE MESH CHANNELS ---
 ||tailscale.com^$important
