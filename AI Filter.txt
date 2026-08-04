@@ -23,6 +23,7 @@
 
 # --- CIVITAI & ANONYMOUS TEXT MODEL MIRRORS ---
 ||civitai.com^$important
+||*.civitai.com^important
 ||civitaiarchive.com^$important
 ||civitasbay.org^$important
 ||civarchive.com^$important
