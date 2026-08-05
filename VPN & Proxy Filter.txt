@@ -2,6 +2,7 @@
 # PURPOSE: Full DNS-level blockade of VPN client bootstrap layers, handshake APIs, 
 #          CDN payload deliveries, and free public proxy scraper engines.
 # NOTE: Maximum hardening applied. Root-level Proton block active.
+# LAST UPDATED: 2026-08-04
 
 # --- NORDVPN FAMILY ---
 ||nordvpn.com^$important
@@ -138,7 +139,6 @@
 ||hamachi.com^$important
 
 # --- TARGETED MALWAREBYTES TUNNEL ENDPOINT ---
-# Disables native VPN privacy client without obstructing main app security signatures
 ||vpn.malwarebytes.com^$important
 
 # --- CLOUDFLARE WARP PLATFORM ---
@@ -146,6 +146,22 @@
 ||warp.cloudflare.com^$important
 ||cloudflarewarp.com^$important
 ||cloudflareclient.com^$important
+
+# --- COMETVPN ---
+||cometvpn.com^$important
+||*.cometvpn.com^$important
+
+# --- ADDITIONAL VPN PROVIDERS ---
+||psiphon.ca^$important
+||getoutline.org^$important
+||outline.org^$important
+||getlantern.org^$important
+||lantern.io^$important
+||mysteriumnetwork.com^$important
+||mysterium.network^$important
+||vpnjantit.com^$important
+||freevpn.casa^$important
+||anonvpn.io^$important
 
 # --- OTHER MINOR COMMERCIAL PROVIDERS ---
 ||airvpn.org^$important
@@ -189,8 +205,31 @@
 ||freevpnplanet.com^$important
 ||vpn.ht^$important
 
+# --- TUNNEL TOOLS & REVERSE PROXY CLIENTS ---
+||ngrok.com^$important
+||ngrok.io^$important
+||ngrok-free.app^$important
+||playit.gg^$important
+||bore.pub^$important
+||localxpose.io^$important
+||expose.dev^$important
+||trycloudflare.com^$important
+||*.trycloudflare.com^$important
+
+# --- VS CODE DEV TUNNELS ---
+||tunnels.api.visualstudio.com^$important
+||*.tunnels.api.visualstudio.com^$important
+
+# --- CLOUD GPU RENTAL ---
+||gpu.me^$important
+
+# --- ORACLE CLOUD ---
+||oracle.com^$important
+||oraclecloud.com^$important
+||oracleimg.com^$important
+||oracle.cloud.com^$important
+
 # --- PUBLIC PROXY SCRAPERS & AGGREGATORS ---
-# Disables sources used to manually copy-paste active port relays
 ||vpnproxy.net^$important
 ||vpnmonster.com^$important
 ||supervpn.net^$important
@@ -216,7 +255,30 @@
 ||advanced.name^$important
 ||free-proxy-list.net^$important
 ||proxydb.net^$important
-||proxynova.com^$important
+||freeproxy.world^$important
+||sockslist.us^$important
+||socks.aimultiple.com^$important
+||proxyway.com^$important
+||proxynests.net^$important
+||spys.one^$important
+||spys.me^$important
+||hidester.com^$important
+||openproxy.space^$important
+||proxylistplus.com^$important
+||checksocks5.com^$important
+||sockslist.net^$important
+||proxy-list.download^$important
+
+# --- IP LEAK & CHECK SITES ---
+||browserleaks.com^$important
+||ipleak.net^$important
+||dnsleaktest.com^$important
+||dnsleak.com^$important
+||ip-api.com^$important
+||ifconfig.me^$important
+||icanhazip.com^$important
+||api.ipify.org^$important
+||ipify.org^$important
 
 # --- ENCRYPTED DISCOVERY & ALTERNATIVE MESH CHANNELS ---
 ||tailscale.com^$important
@@ -226,9 +288,3 @@
 ||doh.libredns.gr^$important
 ||hf-mirror.com^$important
 ||bsky.app^$important
-
-# --- ORACLE CLOUD ---
-||oracle.com^
-||oraclecloud.com^
-||oracleimg.com^
-||oracle.cloud.com^
