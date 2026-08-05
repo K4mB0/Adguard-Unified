@@ -23,9 +23,14 @@
 
 # --- CIVITAI & ANONYMOUS TEXT MODEL MIRRORS ---
 ||civitai.com^$important
+||*.civitai.com^$important
 ||civitaiarchive.com^$important
 ||civitasbay.org^$important
 ||civarchive.com^$important
+||pixiv.net^$important
+||arca.live^$important
+||kemono.su^$important
+||coomer.su^$important
 
 # --- CHARACTER AI & PLATFORM ROUTING MIRRORS ---
 ||character.ai^$important
