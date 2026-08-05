@@ -2,7 +2,7 @@
 # PURPOSE: Full DNS-level blockade of VPN client bootstrap layers, handshake APIs, 
 #          CDN payload deliveries, and free public proxy scraper engines.
 # NOTE: Maximum hardening applied. Root-level Proton block active.
-# LAST UPDATED: 2026-08-04
+# LAST UPDATED: 2026-08-04!
 
 # --- NORDVPN FAMILY ---
 ||nordvpn.com^$important
