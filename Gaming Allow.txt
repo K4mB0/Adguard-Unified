@@ -66,3 +66,13 @@
 # --- APP TELEMETRY & DATA CLOUD SYNC ---
 @@||sentry.io^$important
 @@||cloudsync-prod.s3.us-east-1.amazonaws.com^$important
+
+# --- ARC RAIDERS ---
+@@||es-pio.net^$important
+@@||europe.es-pio.net^$important
+@@||*.europe.es-pio.net^$important
+
+# --- Medal.tv game clip capture ---
+@@||ampltd2.medal.tv^$important
+
+@@||r2.buffersnow.com^$important
