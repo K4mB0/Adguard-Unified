@@ -62,3 +62,5 @@
 ||discordverify.me^$important
 ||discordtoken.shop^$important
 ||discordserver.xyz^$important
+||discadia.com^$important
+||discord-attachments-uploads-prd.storage.googleapis.com^$important
