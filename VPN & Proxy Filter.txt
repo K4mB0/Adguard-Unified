@@ -255,7 +255,6 @@
 ||advanced.name^$important
 ||free-proxy-list.net^$important
 ||proxydb.net^$important
-<<<<<<< HEAD
 ||freeproxy.world^$important
 ||sockslist.us^$important
 ||socks.aimultiple.com^$important
@@ -280,11 +279,10 @@
 ||icanhazip.com^$important
 ||api.ipify.org^$important
 ||ipify.org^$important
-=======
+
 ||freeproxy.world^
 ||sockslist.us^
 ||socks.aimultiple.com^
->>>>>>> d65df7debf131fcb1a38e5bf483862bf787a08d5
 
 # --- ENCRYPTED DISCOVERY & ALTERNATIVE MESH CHANNELS ---
 ||tailscale.com^$important
