@@ -279,7 +279,6 @@
 ||icanhazip.com^$important
 ||api.ipify.org^$important
 ||ipify.org^$important
-
 ||freeproxy.world^
 ||sockslist.us^
 ||socks.aimultiple.com^
