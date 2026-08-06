@@ -77,3 +77,4 @@
 ||twiiit.com^$important
 ||status.d420.de^$important
 ||farside.link^$important
+||twimg.twitter.map.fastly.net^$important
