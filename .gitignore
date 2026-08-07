@@ -1,2 +1,4 @@
+monitor.log
 monitor.ps1
+Start-AdguardMonitor.vbs
 update.bat
