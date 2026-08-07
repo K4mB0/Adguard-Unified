@@ -1,7 +1,7 @@
 # CATEGORY: Adult / Porn Content Blocking
 # PURPOSE: DNS-level enforcement blocking explicit platforms, cam sites, 
 #          adult dating, leak networks, hentai, and associated CDNs.
-
+test
 # --- MAJOR ADULT PLATFORMS ---
 ||pornhub.com^$important
 ||phncdn.com^$important
