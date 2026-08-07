@@ -2,6 +2,8 @@
 # PURPOSE: DNS-level enforcement blocking explicit platforms, cam sites, 
 #          adult dating, leak networks, hentai, and associated CDNs.
 
+testing
+
 # --- MAJOR ADULT PLATFORMS ---
 ||pornhub.com^$important
 ||phncdn.com^$important
