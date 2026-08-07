@@ -1,0 +1,10 @@
+2026-08-07 05:11:44 [INFO] AdGuard Folder Monitor started.
+2026-08-07 05:16:15 [INFO] AdGuard Folder Monitor started.
+2026-08-07 05:19:26 [INFO] Change detected.
+2026-08-07 05:19:29 [INFO] Pulling latest GitHub changes...
+2026-08-07 05:19:29 [INFO] error: cannot pull with rebase: You have unstaged changes.
+2026-08-07 05:19:29 [INFO] error: Please commit or stash them.
+2026-08-07 05:19:29 [ERROR] Pull/rebase failed. Sync aborted.
+2026-08-07 05:21:56 [INFO] AdGuard Folder Monitor started.
+2026-08-07 05:22:26 [INFO] Change detected.
+2026-08-07 05:22:29 [INFO] Adding local changes...
